@@ -1,7 +1,7 @@
 ## 后台管理 + django + Boostrap
 
 
-[doemo]('./home.jpg')
+[doemo]('home.jpg')
 
 ### 环境
 
