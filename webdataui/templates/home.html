@@ -1,0 +1,112 @@
+{% extends 'index.html' %}
+{% load static %}
+{% block content %}
+<!--***** REPORT-4 *****-->    
+    <div class="row" id="report4">
+        <div class="col-md-4" id="card-1">
+            <div class="card card-inverse card-info">
+                <img class="card-img-top" src="{% static 'dataui/img/card/c-1.jpg' %}">
+                <div class="card-block"> 
+                    <h4 class="card-title">Clean Tech Box </h4>
+                    <div class="card-text">
+                        Lorem Ipsum has been the industry's standard.
+                    </div>
+                </div>
+                <div class="card-footer">
+                    <small>Last updated 3 mins ago</small>
+                    <button class="btn btn-info float-right btn-sm">Follow</button>
+                </div>
+            </div>
+        </div>
+        
+        <div class="col-md-4 mt-0" id="card-2">
+            <div class="card hovercard">
+                <div class="cardheader"></div>
+                <div class="avatar">
+                    <img alt="" src="{% static 'dataui/img/avatar-1.jpg' %}" class="img-fluid">
+                </div>
+                <div class="info">
+                    <div class="title">
+                        <a target="_blank" href="#">Steena Ben</a>
+                    </div>
+                    <div class="desc">Passionate designer</div>
+                    <div class="desc">Curious developer</div>
+                    <div class="desc">Tech geek</div>
+                </div>
+                <div class="bottom">
+                    <a class="btn btn-primary btn-twitter btn-sm" href="https://twitter.com/webmaniac">
+                        <i class="fa fa-twitter"></i>
+                    </a>
+                    <a class="btn btn-danger btn-sm" rel="publisher"
+                        href="https://plus.google.com/+ahmshahnuralam">
+                        <i class="fa fa-google-plus"></i>
+                    </a>
+                    <a class="btn btn-primary btn-sm" rel="publisher"
+                        href="https://plus.google.com/shahnuralam">
+                        <i class="fa fa-facebook"></i>
+                    </a>
+                    <a class="btn btn-warning btn-sm" rel="publisher" href="https://plus.google.com/shahnuralam">
+                        <i class="fa fa-behance"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card card-c2">
+                <div class="dropdown pull-right menu-sett-card" > 
+                    <a id="notifications" class="nav-link" rel="nofollow" data-target="#" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <i class="fa fa-ellipsis-v men"></i> 
+                    </a>
+                    <ul aria-labelledby="notifications" class="dropdown-menu">
+                        <li>
+                            <a rel="nofollow" href="#" class="dropdown-item nav-link">Edit</a>
+                        </li>
+                        <li>
+                            <a rel="nofollow" href="#" class="dropdown-item nav-link">FAQ</a>
+                        </li>
+                        <li>
+                            <a rel="nofollow" href="#" class="dropdown-item nav-link">Support</a>
+                        </li> 
+                    </ul>
+                </div>
+                <div class="header">
+                    <h4 class="title">Newsfeed</h4>
+                    <p class="category">Latest News Update</p>
+                    <hr>
+                </div>
+                <div class="content newsf-list">
+                    <ul class="list-unstyled">
+                        <li class="border border-primary">
+                            <a rel="nofollow " href="#" class=" d-flex">
+                                <div class="news-f-img"> <img src="{% static 'dataui/img/avatar-2.jpg' %}" alt="..." class="img-fluid rounded-circle"></div>
+                                <div class="msg-body">
+                                    <h3 class="h5 msg-nav-h3">New Innovation world</h3>
+                                    <small>Tech soft is great innovation for...</small>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="border border-success">
+                            <a rel="nofollow" href="#" class=" d-flex">
+                                <div class="news-f-img"> <img src="{% static 'dataui/img/avatar-3.jpg' %}" alt="..." class="img-fluid rounded-circle"></div>
+                                <div class="msg-body">
+                                    <h3 class="h5 msg-nav-h3">Modified hand-cart steering</h3>
+                                    <small>The idea is to incorporate easy...</small>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="border border-info">
+                            <a rel="nofollow" href="#" class=" d-flex">
+                                <div class="news-f-img"> <img src="{% static 'dataui/img/avatar-4.jpg' %}" alt="..." class="img-fluid rounded-circle"></div>
+                                <div class="msg-body">
+                                    <h3 class="h5 msg-nav-h3">Low cost Modern printer</h3>
+                                    <small>A dot matrix printer modified at...</small>
+                                </div>
+                            </a>
+                        </li> 
+
+                    </ul> 
+                </div>
+            </div>
+        </div> 
+    </div> 
+{% endblock content %}
